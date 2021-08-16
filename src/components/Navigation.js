@@ -24,7 +24,6 @@ const List = styled.ul`
 
 export default function Nav() {
   const [ products, setProducts ] = useContext(ShopContext);
-
   return  (
     <List>
       <Link to={'/'}>
